@@ -1,4 +1,5 @@
 - id: compare-dotenvs
   name: Compare dotenv files
   language: python
-  entry: compare_dotenvs
+  entry: compare-dotenvs
+  files: "\\.env"
