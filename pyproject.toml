@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "compare-dotenvs"
+version = "0.1.0"
+description = ""
+authors = ["Mateusz Grzyb <grzybmateusz@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.scripts]
+compare-dotenvs = "compare_dotenvs:main"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+force_single_line = false
+atomic = true
+include_trailing_comma = true
+lines_after_imports = 2
+lines_between_types = 1
+use_parentheses = true
+filter_files = true
+
+[tool.mypy]
+warn_return_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+warn_unreachable = true
+pretty = true
