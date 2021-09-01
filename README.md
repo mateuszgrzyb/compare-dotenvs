@@ -1,6 +1,5 @@
 ## compare-dotenvs
 
----
 
 A simple tool for managing your `.env.example` files.
 
