@@ -12,6 +12,8 @@ python = "^3.8"
 compare-dotenvs = "compare_dotenvs:main"
 
 [tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+Faker = "^8.12.1"
 
 [build-system]
 requires = ["poetry-core"]
